@@ -1,0 +1,120 @@
+<?php if (isset($component)) { $__componentOriginal1466a957f11e9b118971dfe45f1c1271adbd51ef = $component; } ?>
+<?php $component = App\View\Components\Template\Layout::resolve(['title' => ''.e($title).''] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('template.layout'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Template\Layout::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+  <?php if (isset($component)) { $__componentOriginala1c6e42c635eda76419a0e121230523106522369 = $component; } ?>
+<?php $component = App\View\Components\Organisms\Navbar::resolve(['path' => $shop->path] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('organisms.navbar'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Organisms\Navbar::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['cartCount' => '10']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala1c6e42c635eda76419a0e121230523106522369)): ?>
+<?php $component = $__componentOriginala1c6e42c635eda76419a0e121230523106522369; ?>
+<?php unset($__componentOriginala1c6e42c635eda76419a0e121230523106522369); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginala301e279e9510c3571b06c90d0991d2af4daf87a = $component; } ?>
+<?php $component = App\View\Components\Molecules\About\Hero::resolve(['shop' => $shop] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('molecules.about.hero'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Molecules\About\Hero::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala301e279e9510c3571b06c90d0991d2af4daf87a)): ?>
+<?php $component = $__componentOriginala301e279e9510c3571b06c90d0991d2af4daf87a; ?>
+<?php unset($__componentOriginala301e279e9510c3571b06c90d0991d2af4daf87a); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginal841db7020ec6b1b6749acc3580013d195fac7b9b = $component; } ?>
+<?php $component = App\View\Components\Molecules\About\Address::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('molecules.about.address'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Molecules\About\Address::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal841db7020ec6b1b6749acc3580013d195fac7b9b)): ?>
+<?php $component = $__componentOriginal841db7020ec6b1b6749acc3580013d195fac7b9b; ?>
+<?php unset($__componentOriginal841db7020ec6b1b6749acc3580013d195fac7b9b); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginal2bbf46672ce50805a699da217717c8f5116400cc = $component; } ?>
+<?php $component = App\View\Components\Molecules\About\ShippingReturns::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('molecules.about.shipping-returns'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Molecules\About\ShippingReturns::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal2bbf46672ce50805a699da217717c8f5116400cc)): ?>
+<?php $component = $__componentOriginal2bbf46672ce50805a699da217717c8f5116400cc; ?>
+<?php unset($__componentOriginal2bbf46672ce50805a699da217717c8f5116400cc); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginald1ef78fd01e1f9c6c6e3f73963c44dd391871502 = $component; } ?>
+<?php $component = App\View\Components\Molecules\About\Warranty::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('molecules.about.warranty'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Molecules\About\Warranty::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginald1ef78fd01e1f9c6c6e3f73963c44dd391871502)): ?>
+<?php $component = $__componentOriginald1ef78fd01e1f9c6c6e3f73963c44dd391871502; ?>
+<?php unset($__componentOriginald1ef78fd01e1f9c6c6e3f73963c44dd391871502); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginalb09e095a81acfc126b32e5652ddaa7e83a0f89fe = $component; } ?>
+<?php $component = App\View\Components\Molecules\About\FAQ::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('molecules.about.f-a-q'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Molecules\About\FAQ::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalb09e095a81acfc126b32e5652ddaa7e83a0f89fe)): ?>
+<?php $component = $__componentOriginalb09e095a81acfc126b32e5652ddaa7e83a0f89fe; ?>
+<?php unset($__componentOriginalb09e095a81acfc126b32e5652ddaa7e83a0f89fe); ?>
+<?php endif; ?>
+  <?php if (isset($component)) { $__componentOriginal6bfe9cdfa5badbb664ab59c77cb8f6f55f8fa068 = $component; } ?>
+<?php $component = App\View\Components\Organisms\Footer::resolve(['shop' => $shop] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('organisms.footer'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(App\View\Components\Organisms\Footer::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal6bfe9cdfa5badbb664ab59c77cb8f6f55f8fa068)): ?>
+<?php $component = $__componentOriginal6bfe9cdfa5badbb664ab59c77cb8f6f55f8fa068; ?>
+<?php unset($__componentOriginal6bfe9cdfa5badbb664ab59c77cb8f6f55f8fa068); ?>
+<?php endif; ?>
+ <?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal1466a957f11e9b118971dfe45f1c1271adbd51ef)): ?>
+<?php $component = $__componentOriginal1466a957f11e9b118971dfe45f1c1271adbd51ef; ?>
+<?php unset($__componentOriginal1466a957f11e9b118971dfe45f1c1271adbd51ef); ?>
+<?php endif; ?><?php /**PATH D:\xampp\htdocs\ecomm-laravel\resources\views/client/about.blade.php ENDPATH**/ ?>
